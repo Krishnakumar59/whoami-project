@@ -1,5 +1,3 @@
-# Whoami Project needs *SUPPORT* to continue
-### You can subscribe to YouTube channel to support. It's free and you can unsubscribe whenever you want. Do something nice today and <br> <a href="https://youtu.be/FGjfb_AqSbs"> SUBSCRIBE YOUTUBE CHANNEL</a>
 
 <!-- PROJECT LOGO -->
 <h1 align="center">
@@ -112,10 +110,12 @@ So let's see what we need before installation and how we can download it.
    ```sh
    git clone https://github.com/omer-dogan/kali-whoami
    ```
-2. Install makefile
+2. Install and Run
  
    ```sh
-   sudo make install
+   cd kali-whoami/
+   sudo chmod +x kali-whoami
+   sudo ./kali-whoami --start
    ```
 And that's it, now you're ready to fire up the tool!
 
